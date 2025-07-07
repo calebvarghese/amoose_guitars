@@ -1,25 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import Home from './pages/Home';
+import About from './pages/About';
+import Gallery from './pages/Gallery';
+import Contact from './pages/Contact';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div>
+        {/* Banner / Navbar */}
+        <nav style={styles.nav}>
+          <Link style={styles.link} to="/">Home</Link>
+          <Link style={styles.link} to="/about">About</Link>
+          <Link style={styles.link} to="/gallery">Gallery</Link>
+          <Link style={styles.link} to="/contact">Contact</Link>
+        </nav>
+
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
+
+const styles = {
+  nav: {
+    backgroundColor: '#333',
+    padding: '1rem',
+    display: 'flex',
+    justifyContent: 'center',
+    gap: '2rem',
+  },
+  link: {
+    color: 'white',
+    textDecoration: 'none',
+    fontSize: '1.2rem',
+  }
+};
 
 export default App;
