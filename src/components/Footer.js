@@ -59,7 +59,7 @@ const Footer = () => {
             <div className="contact-info">
               <p>
                 <i className="fas fa-map-marker-alt"></i>
-                123 Guitar Lane, Music City, MC 12345
+                Reston VA
               </p>
               <p>
                 <i className="fas fa-phone"></i>
@@ -67,7 +67,7 @@ const Footer = () => {
               </p>
               <p>
                 <i className="fas fa-envelope"></i>
-                info@amooseguitars.com
+                <a href="mailto:amosmjsmith@gmail.com">amosmjsmith@gmail.com</a>
               </p>
             </div>
           </div>

@@ -32,8 +32,13 @@ const Navbar = () => {
     <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
       <div className="container">
         <Link to="/" className="navbar-brand" onClick={closeMobileMenu}>
-          <span className="brand-text">A-moose</span>
-          <span className="brand-subtitle">Guitars</span>
+          <div className="brand-logo">
+            <img src="/favicon.ico" alt="A-moose Guitars Logo" />
+          </div>
+          <div className="brand-text-container">
+            <span className="brand-text">Amoose</span>
+            <span className="brand-subtitle">Guitars</span>
+          </div>
         </Link>
 
         <div className={`navbar-menu ${isMobileMenuOpen ? 'active' : ''}`}>

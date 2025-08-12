@@ -19,22 +19,12 @@ const About = () => {
         <div className="container">
           <div className="story-content">
             <div className="story-text">
-              <h2>The A-moose Legacy</h2>
+              <h2>About</h2>
               <p>
-                Founded in 2010, A-moose Guitars began as a small workshop with a big dream: 
-                to create guitars that not only sound exceptional but also inspire musicians 
-                to reach new heights in their craft.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culp
               </p>
               <p>
-                Our founder, Alex Moose, started building guitars in his garage after years 
-                of playing professionally. Frustrated with the lack of instruments that truly 
-                spoke to his soul, he decided to build his own. What started as a personal 
-                project quickly grew into a passion that would change his life forever.
-              </p>
-              <p>
-                Today, A-moose Guitars is a team of dedicated craftsmen and women who share 
-                Alex's vision. Each guitar we build is a testament to our commitment to 
-                quality, innovation, and the timeless art of luthiery.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culp
               </p>
             </div>
             <div className="story-image">
